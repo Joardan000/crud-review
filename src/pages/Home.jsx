@@ -13,7 +13,8 @@ export default function Home() {
     const [description, setDescription] = useState("")
 
     const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwibmFtZSI6ImFzaWxiZWsiLCJ1bmlxdWVfbmFtZSI6Iis5OTg5MTQ1NDIzMzkiLCJqdGkiOiJjN2MzMWY4My1iMmUyLTQ3OTYtOGE3OC1kYzdmYTg4NWZlZWEiLCJUZW5hbnRJZCI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTc4MTExNjM5NSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIn0.GRkiAPvnP-WuhF-M2IMGfFAHMoDcTLPPkdA1V5CrJzQ"
-    const url = "/api/Expenses"
+    const url = "https://crm-test-api.duckdns.org/api/Expenses"
+
     async function fetchData() {
         try{
             setLoading(true)
