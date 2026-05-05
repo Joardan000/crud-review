@@ -127,6 +127,7 @@ export default function Home() {
                 <button type="submit">submit</button>
             </form>
             <div>test status</div>
+            <div>test log</div>
             {loading ? (
                 <p>loading...</p>
             ):(
